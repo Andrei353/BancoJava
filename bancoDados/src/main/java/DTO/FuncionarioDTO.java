@@ -7,6 +7,7 @@ package DTO;
 
 public class FuncionarioDTO {
     private String nomeFuncionario, cidadeFuncionario;
+    private int id;
 
     
     public String getNomeFuncionario() {
@@ -26,6 +27,16 @@ public class FuncionarioDTO {
    
     public void setCidadeFuncionario(String cidadeFuncionario) {
         this.cidadeFuncionario = cidadeFuncionario;
+    }
+
+    
+    public int getId() {
+        return id;
+    }
+
+ 
+    public void setId(int id) {
+        this.id = id;
     }
             
             
